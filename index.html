@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kisumu Realtors</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img src="Images/home2.jpg" alt="Logo" class="logo" />
+        <ul class="navlist">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <button type="submit" id="nav-btn">Get in touch</button>
+    </header>
+    <section class="home" id="home">
+        <div class="hero">
+            <div class="carousel-and-text">
+                <div class="carousel-container" id="carousel-container">
+                    <div class="carousel-slide">
+                        <img src="Images/pic1.jpg" alt="header image 1" />
+                        <img src="Images/pic2.jpg" alt="header image 2" />
+                        <img src="Images/pic3.jpg" alt="header image 3" />
+                    </div>
+                </div>
+                <div class="container" id="container">
+                </div>
+            </div>
+            <button class="prev">&lt;</button>
+            <button class="next">&gt;</button>
+        </div>
+    </section>
+    <section id="Contact">
+        <div class="contact-form">
+            <h2>Contact Us</h2>
+            <form action="https://formsubmit.co/el/leduwo" method="POST">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea rows="4" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>  
+    </section>
+    <script src="main.js"></script>
+</body>
+</html>
